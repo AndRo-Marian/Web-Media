@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <grid>
+        <row>
+            <button/>
+            <button id="chrome" image="icons/chrome-offline-logo.png" scale="fit" onDown="switch_browser chrome"/>
+            <button id="firefox" image="icons/firefox-offline-logo.png" scale="fit" onDown="switch_browser firefox"/>
+            <button id="opera" image="icons/opera-offline-logo.png" scale="fit" onDown="switch_browser opera"/>
+            <button id="brave" image="icons/brave-offline-logo.png" scale="fit" onDown="switch_browser brave"/>
+            <button id="edge" image="icons/edge-offline-logo.png" scale="fit" onDown="switch_browser edge"/>
+        </row>
+        <row>
+            <button id="preview" image="icons/unknown-logo.png" scale="fit"/>
+            <button id="message" text="Loading..."/>
+        </row>
+        <row>
+            <button/>
+            <button icon="back" color="#5d4d80" onDown="tab_reopen"/>
+            <button icon="docclose" color="#5d4d80" onDown="tab_close"/>
+            <button icon="docnew" color="#5d4d80" onDown="tab_new"/>
+            <button icon="docleft" color="#5d4d80" onDown="tab_back"/>
+            <button icon="docright" color="#5d4d80" onDown="tab_next"/>
+        </row>
+        <row>
+            <button/>
+            <button icon="refresh" color="#5d4d80" onDown="tab_refresh"/>
+            <button icon="web" color="#5d4d80" onDown="tab_search"/>
+            <button color="#5d4d80"/>
+            <button icon="arrowleft" color="#5d4d80" onDown="history_back"/>
+            <button icon="arrowright" color="#5d4d80" onDown="history_next"/>
+        </row>
+        <row weight="2">
+            <grid>
+                <row>
+                    <button/>
+                    <button text="1" color="#408080" onDown="seek_to 1"/>
+                    <button text="2" color="#408080" onDown="seek_to 2"/>
+                    <button text="3" color="#408080" onDown="seek_to 3"/>
+                    <button text="4" color="#408080" onDown="seek_to 4"/>
+                    <button text="5" color="#408080" onDown="seek_to 5"/>
+                </row>
+                <row>
+                    <button/>
+                    <button text="6" color="#408080" onDown="seek_to 6"/>
+                    <button text="7" color="#408080" onDown="seek_to 7"/>
+                    <button text="8" color="#408080" onDown="seek_to 8"/>
+                    <button text="9" color="#408080" onDown="seek_to 9"/>
+                    <button text="0" color="#408080" onDown="seek_to 0"/>
+                </row>
+            </grid>
+        </row>
+        <row>
+            <button/>
+            <button icon="vdown" color="#408040" onDown="volume_down"/>
+            <button icon="vup" color="#408040" onDown="volume_up"/>
+            <button icon="rwd" color="#408040" onDown="seek_back"/>
+            <button icon="ff" color="#408040" onDown="seek_next"/>
+            <button icon="playpause" color="#408040" onDown="play_pause"/>
+        </row>
+        <row>
+            <button/>
+            <button icon="vmute" color="#408040" onDown="volume_mute"/>
+            <button icon="fullscreen" color="#408040" onDown="fullscreen"/>
+            <button icon="previous" color="#408040" onDown="back_track"/>
+            <button icon="next" color="#408040" onDown="next_track"/>
+            <button/>
+        </row>
+        <row>
+            <button/>
+            <button/>
+            <button/>
+            <button/>
+            <button/>
+            <button/>
+        </row>
+    </grid>
+</layout>
