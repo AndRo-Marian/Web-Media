@@ -152,10 +152,10 @@ actions.tab_refresh = function() FocusBrowser(); keyboard.stroke("RCtrl", "R"); 
 actions.volume_mute = function() FocusBrowser(); keyboard.stroke("M"); end
 
 --- Raise volume
-actions.volume_up = function() FocusBrowser(); keyboard.stroke("Up"); end
+actions.volume_up = function() FocusBrowser(); keyboard.stroke("RShift", "Up"); end
 
 --- Lower volume
-actions.volume_down = function() FocusBrowser(); keyboard.stroke("Down"); end
+actions.volume_down = function() FocusBrowser(); keyboard.stroke("RShift", "Down"); end
 
 --- Seek backwards
 actions.seek_back = function() FocusBrowser(); keyboard.stroke("Left"); end
