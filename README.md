@@ -4,6 +4,8 @@ A remote control for Unified Remote
 Unified Remote: 3.11.0.2483 (50)  
 Lua: 5.1
 
+For: YouTube, Twitch, and for same shortcuts web players.
+
 # Layout description:
 
 1. Select a browser to focus automatically when pressing a button.
