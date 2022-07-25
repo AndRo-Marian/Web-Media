@@ -122,40 +122,40 @@ end
 --+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--
 
 --- Reopen tab
-actions.tab_reopen = function() FocusBrowser(); keyboard.stroke("RCtrl", "RShift", "T"); end
+actions.tab_reopen = function() FocusBrowser(); keyboard.stroke("Ctrl", "Shift", "T"); end
 
 --- Close tab
-actions.tab_close = function() FocusBrowser(); keyboard.stroke("RCtrl", "W"); end
+actions.tab_close = function() FocusBrowser(); keyboard.stroke("Ctrl", "W"); end
 
 --- New tab
-actions.tab_new = function() FocusBrowser(); keyboard.stroke("RCtrl", "T"); end
+actions.tab_new = function() FocusBrowser(); keyboard.stroke("Ctrl", "T"); end
 
 --- Search tab
-actions.tab_search = function() FocusBrowser(); keyboard.stroke("RCtrl", "L"); device.keyboard(); end
+actions.tab_search = function() FocusBrowser(); keyboard.stroke("Ctrl", "L"); device.keyboard(); end
 
 --- Navigate back on history
-actions.history_back = function() FocusBrowser(); keyboard.stroke("LAlt", "Left"); end
+actions.history_back = function() FocusBrowser(); keyboard.stroke("Alt", "Left"); end
 
 --- Navigate next in history
-actions.history_next = function() FocusBrowser(); keyboard.stroke("LAlt", "Right"); end
+actions.history_next = function() FocusBrowser(); keyboard.stroke("Alt", "Right"); end
 
 --- Select previous tab
-actions.tab_back = function() FocusBrowser(); keyboard.stroke("RCtrl", "PageUp"); end
+actions.tab_back = function() FocusBrowser(); keyboard.stroke("Ctrl", "PageUp"); end
 
 --- Select next tab
-actions.tab_next = function() FocusBrowser(); keyboard.stroke("RCtrl", "PageDown"); end
+actions.tab_next = function() FocusBrowser(); keyboard.stroke("Ctrl", "PageDown"); end
 
 --- Refresh tab
-actions.tab_refresh = function() FocusBrowser(); keyboard.stroke("RCtrl", "R"); end
+actions.tab_refresh = function() FocusBrowser(); keyboard.stroke("F5"); end
 
 --- Mute volume
 actions.volume_mute = function() FocusBrowser(); keyboard.stroke("M"); end
 
 --- Raise volume
-actions.volume_up = function() FocusBrowser(); keyboard.stroke("RShift", "Up"); end
+actions.volume_up = function() FocusBrowser(); keyboard.stroke("Shift", "Up"); end
 
 --- Lower volume
-actions.volume_down = function() FocusBrowser(); keyboard.stroke("RShift", "Down"); end
+actions.volume_down = function() FocusBrowser(); keyboard.stroke("Shift", "Down"); end
 
 --- Seek backwards
 actions.seek_back = function() FocusBrowser(); keyboard.stroke("Left"); end
@@ -174,7 +174,7 @@ actions.fullscreen = function() FocusBrowser(); keyboard.stroke("F"); end
 actions.play_pause = function() FocusBrowser(); keyboard.stroke("Space"); end
 
 --- Next track
-actions.next_track = function() FocusBrowser(); keyboard.stroke("RShift", "N"); end
+actions.next_track = function() FocusBrowser(); keyboard.stroke("Shift", "N"); end
 
 --- Back track
-actions.back_track = function() FocusBrowser(); keyboard.stroke("RShift", "P"); end
+actions.back_track = function() FocusBrowser(); keyboard.stroke("Shift", "P"); end
